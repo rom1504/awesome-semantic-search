@@ -13,13 +13,17 @@ In [Semantic search with embeddings](https://rom1504.medium.com/semantic-search-
     *   [Tensorflow datasets](https://www.tensorflow.org/datasets/catalog/overview) building search systems only requires image or text, many tf datasets are interesting in that regard
     *   [Torchvision datasets](https://pytorch.org/vision/stable/datasets.html) datasets provided for vision are also interesting for this
 *   **Pretrained encoders** make it possible to quickly build a new system without training
-    *   [Clip](https://github.com/openai/CLIP) encode image and text in a same space
-    *   [Efficientnet b0](https://github.com/qubvel/efficientnet) is a simple way to encode images
-    *   [Dino](https://github.com/facebookresearch/dino) is an encoder trained using self supervision which reaches high knn classification performance
-    *   [Labse](https://tfhub.dev/google/LaBSE/2) a bert text encoder trained for similarity that put sentences from 109 in the same space
-    *   [Jina examples](https://github.com/jina-ai/examples) provide example on how to use pretrained encoders to build search systems 
-    *   [Vectorhub](https://github.com/vector-ai/vectorhub) image, text, audio encoders
-    *   [Face embeddings](https://github.com/ageitgey/face_recognition) compute face embeddings
+    *   Vision+Language
+        *   [Clip](https://github.com/openai/CLIP) encode image and text in a same space
+    *   Image
+        *   [Efficientnet b0](https://github.com/qubvel/efficientnet) is a simple way to encode images
+        *   [Dino](https://github.com/facebookresearch/dino) is an encoder trained using self supervision which reaches high knn classification performance
+        *   [Face embeddings](https://github.com/ageitgey/face_recognition) compute face embeddings
+    *   Text
+        *   [Labse](https://tfhub.dev/google/LaBSE/2) a bert text encoder trained for similarity that put sentences from 109 in the same space
+    *   Misc
+        *   [Jina examples](https://github.com/jina-ai/examples) provide example on how to use pretrained encoders to build search systems 
+        *   [Vectorhub](https://github.com/vector-ai/vectorhub) image, text, audio encoders
 *   **Similarity learning** allows you to build new similarity encoders
     *   [Fine tuning classification with keras](https://keras.io/guides/transfer_learning/) enables adapting an existing image encoder to a custom dataset
     *   [Fine tuning classification with hugging face](https://huggingface.co/transformers/training.html) makes it possible to adapt existing text encoders
