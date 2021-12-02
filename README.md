@@ -48,4 +48,5 @@ In [Semantic search with embeddings](https://rom1504.medium.com/semantic-search-
     *   [Pinecone](https://techcrunch.com/2021/01/27/pinecone-lands-10m-seed-for-purpose-built-machine-learning-database/?guccounter=1) a startup building databases indexing embeddings
     *   [Vector ai](https://hub.getvectorai.com/) is building an encoder hub
     *   [Milvus](https://milvus.io/) builds an end to end open source semantic search system
+    *   [FeatureForm's embeddinghub](https://github.com/featureform/embeddinghub) combining DB and KNN
     *   Many other companies are using these systems and releasing open tools on the way, and it would be too long a list to put them here (for example facebook with faiss and self supervision, google with scann and thousand of papers, microsoft with sptag, spotify with annoy, criteo with rsvd, deepr, autofaiss, …)
