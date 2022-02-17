@@ -38,6 +38,7 @@ In [Semantic search with embeddings](https://rom1504.medium.com/semantic-search-
     *   [Annoy](https://github.com/spotify/annoy) a aknn algorithm by spotify
     *   [Scann](https://github.com/google-research/google-research/tree/master/scann) a aknn algorithm faster than hnsw by google
     *   [Catalyzer](https://arxiv.org/pdf/1806.03198.pdf) training the quantizer with backpropagation
+    *   [hora](https://github.com/hora-search/hora) approximate knn implemented in rust
 *   **Search pipelines** allow fast serving and customization of how the indices are queries
     *   [Milvus](https://github.com/milvus-io/milvus) end to end similarity engine, on top of faiss and hnswlib
     *   [Jina](https://github.com/jina-ai/jina) flexible end to end similarity engine
