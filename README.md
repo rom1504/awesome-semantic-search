@@ -51,4 +51,6 @@ In [Semantic search with embeddings](https://rom1504.medium.com/semantic-search-
     *   [Milvus](https://milvus.io/) builds an end to end open source semantic search system
     *   [FeatureForm's embeddinghub](https://github.com/featureform/embeddinghub) combining DB and KNN
     *   [vespa](https://blog.vespa.ai/) knn-based managed retrieval engine
-    *   Many other companies are using these systems and releasing open tools on the way, and it would be too long a list to put them here (for example facebook with faiss and self supervision, google with scann and thousand of papers, microsoft with sptag, spotify with annoy, criteo with rsvd, deepr, autofaiss, …)
+    *   Many other companies are using these systems and releasing open tools on the way
+*   **Tools and CLIs**: handy command-line tools for semantic similarity
+    *   [Semantic Similarity CLI](https://github.com/cedendahlkim/semantic-similarity-cli) — Compare two texts semantically via CLI. Uses HDC (Hyperdimensional Computing) for language-agnostic similarity with explainable shared concepts. Works offline with local word-overlap fallback. `pip install semantic-similarity-cli`, and it would be too long a list to put them here (for example facebook with faiss and self supervision, google with scann and thousand of papers, microsoft with sptag, spotify with annoy, criteo with rsvd, deepr, autofaiss, …)
