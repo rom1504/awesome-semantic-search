@@ -14,6 +14,7 @@ In [Semantic search with embeddings](https://rom1504.medium.com/semantic-search-
     *   [Torchvision datasets](https://pytorch.org/vision/stable/datasets.html) datasets provided for vision are also interesting for this
 *   **Pretrained encoders** make it possible to quickly build a new system without training
     *   Vision+Language
+        *   [FreeRet](https://github.com/MCG-NJU/FreeRet) uses pretrained MLLMs for multimodal embeddings and multiple-choice reranking without additional training ([paper](https://arxiv.org/abs/2509.24621))
         *   [Clip](https://github.com/openai/CLIP) encode image and text in a same space
     *   Image
         *   [Efficientnet b0](https://github.com/qubvel/efficientnet) is a simple way to encode images
